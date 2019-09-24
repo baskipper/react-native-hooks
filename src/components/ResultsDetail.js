@@ -16,12 +16,11 @@ const ResultsDetail = ({result}) => {
             </Text>
         </View>
     )
-}
+};
 
 const styles = StyleSheet.create({
     container: {
-      marginLeft: 15,
-
+      marginLeft: 15
     },
     image: {
         width: 250,
@@ -32,6 +31,6 @@ const styles = StyleSheet.create({
     name: {
         fontWeight: 'bold'
     }
-})
+});
 
 export default ResultsDetail
